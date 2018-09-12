@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS tasks (
+  id VARCHAR(36)   PRIMARY KEY,
+  timestamp_  VARCHAR(50)  NOT NULL,
+  status    VARCHAR(1000) NOT NULL
+);
